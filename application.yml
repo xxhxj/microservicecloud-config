@@ -1,4 +1,4 @@
-###保存为UTF-8格式
+﻿###保存为UTF-8格式
 
 spring: 
   profiles: 
@@ -6,7 +6,7 @@ spring:
 #---同一文件不同配置环境     
 ---
 spring: 
-  profiles:  dev  #开发环境
+  profiles: dev  #开发环境
     application: 
       name: microservicecloud-config-wonders-dev
 ---
