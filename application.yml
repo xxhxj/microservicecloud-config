@@ -1,17 +1,7 @@
-﻿###保存为UTF-8格式
-
-spring: 
-  profiles: 
-    active:  
-#---同一文件不同配置环境     
----
-spring: 
+﻿spring:
   profiles: dev  #开发环境
     application: 
       name: microservicecloud-config-wonders-dev
----
-spring: 
-  profiles: test  #测试环境
-    application: 
-      test: microservicecloud-config-wonders-test
+
+
 
