@@ -1,7 +1,20 @@
 ﻿spring:
-  profiles: dev  #开发环境
-    application: 
-      name: microservicecloud-config-wonders-dev
+  profiles: 
+    active: dev
+
+---
+spring: 
+  profiles: dev
+  application: 
+    name: microservicecloud-config-wonders-dev
+
+---
+spring: 
+  profiles: test
+  application: 
+    name:  microservicecloud-config-wonders-test
+
+
 
 
 
