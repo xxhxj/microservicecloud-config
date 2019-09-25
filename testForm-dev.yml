@@ -1,7 +1,7 @@
 from: dev-environment-1.0
 
-#server: 
-#  port: 8202
+server: 
+  port: 8202
 #spring: 
 #  profiles:  test #开发环境
 #  application: 
