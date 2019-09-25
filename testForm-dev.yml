@@ -1,12 +1,12 @@
 from: dev-environment-1.0
 
-server: 
-  port: 8202
-spring: 
-  profiles:  test #开发环境
-  application: 
-      name: microservicecloud-config-client
-eureka: 
-  client: 
-    service-url: 
-      defaultZone: http://eureka-test.com:7001/eureka/
+#server: 
+#  port: 8202
+#spring: 
+#  profiles:  test #开发环境
+#  application: 
+#      name: microservicecloud-config-client
+#eureka: 
+#  client: 
+#    service-url: 
+#      defaultZone: http://eureka-test.com:7001/eureka/
